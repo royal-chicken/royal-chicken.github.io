@@ -194,31 +194,15 @@
 						</div>
 						<div class="col-lg-6 col-12">
 							<div class="contact-form">
-								<script type="text/javascript" async src="https://cdn.reamaze.com/assets/reamaze.js"></script>
-								<script type="text/javascript">
-								  var _support = _support || { 'ui': {}, 'user': {} };
-								  _support['account'] = 'royalchicken';
-								  _support['contact_custom_fields'] = _support['contact_custom_fields'] || {};
-								  _support['contact_custom_fields']['rmz_form_id_31058'] = {
-								      'Phone Number': {
-									pos: 1640168323525,
-									type: 'phone',
-									value: '',
-									required: true,
-									placeholder: '',
-									connectContact: false,
-								      },
-								      'Subject': {
-									pos: 1640168335503,
-									type: 'text',
-									value: '',
-									required: true,
-									placeholder: '',
-								      }
-								  };
-								</script>
-								<div data-reamaze-embed="contact" data-reamaze-embed-disable-subject="true" data-reamaze-embed-form-id="31058"></div>
-
+								<form action="#" method="POST" id="commentform" class="comment-form">
+									<input type="text" name="name" class="" placeholder="Name*">
+									<input type="email" name="email" class="" placeholder="Email*">
+									<input type="text" name="subject" class="" placeholder="Subject*">
+									<textarea name="text" id="role" cols="30" rows="9" placeholder="Message*"></textarea>
+									<button type="submit" class="lab-btn">
+										<span>Submit Now</span>
+									</button>
+								</form>
 							</div>
 						</div>
 					</div>

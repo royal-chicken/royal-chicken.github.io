@@ -1,1 +1,8 @@
-Redirect 301 / https://royalchicken.ml
+$ curl -I https://royal-chicken.github.io
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+permissions-policy: interest-cohort=()
+Location: https://royalchicken.ml/
